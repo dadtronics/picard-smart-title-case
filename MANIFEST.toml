@@ -1,0 +1,20 @@
+---
+uuid = "bb9200b0-2fc4-4318-8aa6-131fc045ed79"
+name = "Smart Title Case"
+description = "Title-case album/track titles and artist names, leaving embedded uppercase (e.g. USA, DoA) and join phrases (e.g. 'feat.') as-is."
+api = ["3.0"]
+version = "0.4.3"
+authors = ["Sophist", "Bob Swift (rdswift)", "Aaron (dadtronics)"]
+license = "GPL-2.0-or-later"
+license_url = "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
+categories = ["metadata"]
+long_description = """
+Capitalizes the first character of every word in album/track titles and
+artist names. Leaves words containing embedded uppercase as-is
+(e.g. USA or DoA). For artist/albumartist, only title-cases the artists
+and leaves join phrases untouched, e.g. "The Beatles feat. The Who".
+
+Original plugin by Sophist (based on an earlier plugin by Javier Kohen),
+updated for Picard 2.0 by Bob Swift (rdswift). This repository is a port
+to the Picard 3.0 plugin format.
+"""
